@@ -1,0 +1,9 @@
+.cardStyle{
+    height: 150px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+

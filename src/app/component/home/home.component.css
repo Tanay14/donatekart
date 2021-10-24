@@ -1,0 +1,23 @@
+.cardLayout{
+
+        display: flex;
+    
+        flex-direction: row;
+        flex-wrap: wrap ;
+        justify-content: space-evenly;
+       
+        
+    
+}
+
+select{
+    text-align: center;
+    width: 400px;
+    background-color: gray;
+    height: 32px;
+   
+}
+
+
+
+

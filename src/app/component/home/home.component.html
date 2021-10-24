@@ -1,0 +1,16 @@
+<div class="row">
+    <br />
+    <div class="cardLayout">
+        <ng-container *ngFor="let items of showItems" fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%">
+            <app-card [item]="items"></app-card>
+        </ng-container>
+        <ng-container>
+           <label> currency : </label>
+           
+            <select [(ngModel)]="selected" (ngModelChange)="onChange()">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+            </select>
+        </ng-container>
+    </div>
+</div>
